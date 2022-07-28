@@ -1308,7 +1308,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form #errormessage {
   color: red;
   display: none;
-  border: 1px solid red;
+  border: 1px solid #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
