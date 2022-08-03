@@ -221,6 +221,7 @@ h6 {
 
 #intro .carousel-background img {
   max-width: 100%;
+  background-size: cover;
 }
 
 #intro .carousel-content {
@@ -585,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header p {
-  text-align: justify;
+  text-align: center;
   padding-bottom: 30px;
   color: #333;
 }
@@ -657,7 +658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.74);
   z-index: 9;
 }
 
