@@ -301,6 +301,99 @@ h6 {
   background: #18d26e;
 }
 
+/* $opacity-transition: opacity $speed ease-in-out;
+
+.modal-header {
+	align-items: baseline;
+	display: flex;
+	justify-content: space-between;
+}
+
+.close {
+	background: none;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	height: 16px;
+	text-decoration: none;
+	width: 16px;
+
+	svg {
+		width: 16px;
+	}
+}
+
+.modal-wrapper {
+	align-items: center;
+	background: rgba(0, 0, 0, 0.7);
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+#modal {
+	opacity: 0;
+	transition: $opacity-transition;
+	visibility: hidden;
+
+	&:target {
+		opacity: 1;
+		visibility: visible;
+
+		.modal-body {
+			opacity: 1;
+			transform: translateY(1);
+		}
+	}
+
+	.modal-body {
+		max-width: 500px;
+		opacity: 0;
+		transform: translateY(-100px);
+		transition: $opacity-transition;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+.outside-trigger {
+	bottom: 0;
+	cursor: default;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.button__link {
+	text-decoration: none;
+} */
+
+
+.button-palestras{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  text-align: center;
+  background: #18d26e;
+}
+
+.button-palestras:hover{
+  background: #fff;
+  color: #18d26e;
+}
+
 #intro .btn-get-started:hover {
   background: #fff;
   color: #18d26e;
@@ -1103,6 +1196,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .testimonial-item {
   text-align: center;
+  display: flex;
 }
 
 #testimonials .testimonial-item .testimonial-img {
@@ -1113,7 +1207,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
@@ -1122,7 +1216,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
-  margin: 0 0 15px 0;
+  margin-top: 0 0 15px 0;
 }
 
 #testimonials .testimonial-item .quote-sign-left {
