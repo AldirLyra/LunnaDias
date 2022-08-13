@@ -25,6 +25,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -55,25 +56,25 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Treinamentos</a></li>
-          <li><a href="#call-to-action">Consultorias</a></li>
+          <!-- <li><a href="#services">Treinamentos</a></li> -->
+          <li class="menu-has-children"><a href="#services">Treinamentos</a>
+            <ul>
+              <li><a href="#call-to-action">Consultorias</a></li>
+              <li><a href="facts">Palestras</a></li>
+              <li><a href="#">Aprenda com Lunna Dias</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="#call-to-action">Consultorias</a></li> -->
           <!-- <li><a href="#team">Conteúdos</a></li> -->
-          <li><a href="#">Palestras</a></li>
+          <!-- <li><a href="#">Palestras</a></li> -->
           <li><a href="#team">Eventos</a></li>
-          <li><a href="#">Depoimentos</a></li>
+          <li><a href="portfolio">Depoimentos</a></li>
           <li><a href="#testimonials">Clientes</a></li>
           <li><a href="clients">Mídia</a></li>
-          <li><a href="#">Aprenda comigo</a></li>
+          <!-- <li><a href="#">Aprenda comigo</a></li> -->
           <!-- <li><a href="#">Depoimentos</a></li> -->
           <li><a href="#contact">Contato</a></li>
-          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
+
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -91,7 +92,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/2A--12-new.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/2A--12-Recuperado.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <!-- <h2>"Liderança é muito mais DISPOSIÇÃO do que POSIÇÃO".</h2> -->
@@ -104,7 +105,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2A--21-new.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/2A-21.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <!-- <h2>Frases de sua preferência</h2> -->
@@ -117,7 +118,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2A--5.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/2A--5-new.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <!-- <h2>Frases de sua preferência</h2> -->
@@ -144,7 +145,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/IMG_6745.JPG" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/IMG_6745new.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <!-- <h2>Frases de sua preferência</h2> -->
@@ -289,37 +290,13 @@
         </header>
 
         <div class="row">
-
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
             <h4 class="title"><a href="https://youtu.be/RxxzOG9PiX8">A magia do atendimento Disney: Técnicas e
-                comportamentos que conquistam clientes</a></h4>
-            <!-- <div class="card">
-                  <div class="content-wrapper">
-                    <h2 class="heading">CSS Modal</h2>
-                    <p>This demo shows how to open a modal without using JavaScript. While it's a cool trick, it's not 100% accessible. JavaScript is needed to set focus on the modal and to create a focus trap.</p>
-                  </div>
-                  <a href="#modal" role="button" class="button button__link">Modal Trigger</a>
-                </div> -->
-
-            <!-- Modal -->
-            <!-- <div class="modal-wrapper" id="modal">
-                  <div class="modal-body card">
-                    <div class="modal-header">
-                      <h2 class="heading">Modal Header</h2>
-                      <a href="#!" role="button" class="close" aria-label="close this modal">
-                        <svg viewBox="0 0 24 24">
-                          <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
-                        </svg>
-                      </a>
-                    </div>
-                    <p>Simple example using the <code>:target</code> selector to open a modal.</p>
-                  </div>
-                  <a href="#!" class="outside-trigger"></a>
-                </div> -->
-            <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-              occaecati cupiditate non provident</p> -->
+                comportamentos que conquistam clientes</a>
+            </h4>
           </div>
+
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
             <h4 class="title"><a href="https://youtu.be/KGncra_sIlk">Programa Liderança Lucrativa</a></h4>
@@ -617,7 +594,7 @@
                 Equipe de administração da lojas Ricardo's agradece pelo ótimo serviço prestado por você, Lunna!
                 " class="link-preview" title="Visualizar"><i class="ion ion-eye"></i>
                 </a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <!-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> -->
               </figure>
 
               <div class="portfolio-info">
@@ -631,13 +608,14 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/tereza-postigo.png" class="img-fluid" alt="">
-                <a href="img/portfolio/tereza-postigo.png" class="link-preview" data-lightbox="portfolio" data-title="Nós, gestores e funcionários da  imobiliária e 
+                <a href="img/portfolio/tereza-postigo.png" class="link-preview" data-lightbox="portfolio"
+                  data-title="Nós, gestores e funcionários da  imobiliária e 
                 correspondente Postigo fizemos dois treinamentos com a Lunna, e 
                 já estamos querendo fazer mais, pois vimos resultados em vários segmentos da empresa, como aumento nas vendas, maior entrosamento entre a equipe, 
                 melhor atendimento dos clientes gerando mais satisfação e engajamento, ou seja, eu recomendo, além de ser uma excelente profissional, a qual eu 
-                pude recorrer mesmo depois do treinamento pra me ajudar em uma situação específica,  é uma pessoa querida que hoje faz parte do nosso rol de parceiros e amigos."
-                  title="Visualizar"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                pude recorrer mesmo depois do treinamento pra me ajudar em uma situação específica,  é uma pessoa querida que hoje faz parte do nosso rol de parceiros e amigos." title="Visualizar"><i
+                    class="ion ion-eye"></i></a>
+                <!-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> -->
               </figure>
 
               <div class="portfolio-info">
@@ -657,9 +635,8 @@
                 Tivemos aumento nas vendas internas e externas,assim nosso faturamento.
                 Obtivemos novas técnicas para lidarmos com clientes conflituosos. 
                 Obrigada pelo carinho!
-                "
-                  title="Visualizar"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                " title="Visualizar"><i class="ion ion-eye"></i></a>
+                <!-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> -->
               </figure>
 
               <div class="portfolio-info">
@@ -673,9 +650,10 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/gustavo-marcelo.png" class="img-fluid" alt="">
-                <a href="img/portfolio/gustavo-marcelo.png" class="link-preview" data-lightbox="portfolio" data-title="Com a Lunna nós conseguimos por meio de metodologias  alinhar a nossa estratégia com pessoas. Essa equação resulto no aumento da nossa receita e na criação de uma empresa nova"
+                <a href="img/portfolio/gustavo-marcelo.png" class="link-preview" data-lightbox="portfolio"
+                  data-title="Com a Lunna nós conseguimos por meio de metodologias  alinhar a nossa estratégia com pessoas. Essa equação resulto no aumento da nossa receita e na criação de uma empresa nova"
                   title="Visualizar"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <!-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> -->
               </figure>
 
               <div class="portfolio-info">
@@ -689,9 +667,10 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/lilian-campos.png" class="img-fluid" alt="">
-                <a href="img/portfolio/lilian-campos.png" class="link-preview" data-lightbox="portfolio" data-title="A equipe D'Presentes se reinventou através do seu curso.Juntamos as formas de abordagens com a estrutura física da empresa proporcionando bem estar e qualidade para nossos clientes e colaboradores. O curso despertou a curiosidade dos vendedores em aprender mais sobre os produtos e serviços, fidelizando novos clientes e resultando no aumento das vendas."
+                <a href="img/portfolio/lilian-campos.png" class="link-preview" data-lightbox="portfolio"
+                  data-title="A equipe D'Presentes se reinventou através do seu curso.Juntamos as formas de abordagens com a estrutura física da empresa proporcionando bem estar e qualidade para nossos clientes e colaboradores. O curso despertou a curiosidade dos vendedores em aprender mais sobre os produtos e serviços, fidelizando novos clientes e resultando no aumento das vendas."
                   title="Visualizar"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <!-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> -->
               </figure>
 
               <div class="portfolio-info">
@@ -705,9 +684,10 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/george-silva.png" class="img-fluid" alt="">
-                <a href="img/portfolio/george-silva.png" class="link-preview" data-lightbox="portfolio" data-title="Após a realização do curso conseguimos alavancar as vendas mais de 50%, colocamos em prática e vestimos a camisa Disney para fazer valer a pena. Vendas lá em cima, atendimento de excelência e vários diferencias implementados na loja… indicamos o curso para fazer diferença na sua empresa. Só sucesso!"
+                <a href="img/portfolio/george-silva.png" class="link-preview" data-lightbox="portfolio"
+                  data-title="Após a realização do curso conseguimos alavancar as vendas mais de 50%, colocamos em prática e vestimos a camisa Disney para fazer valer a pena. Vendas lá em cima, atendimento de excelência e vários diferencias implementados na loja… indicamos o curso para fazer diferença na sua empresa. Só sucesso!"
                   title="Visualizar"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <!-- <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a> -->
               </figure>
 
               <div class="portfolio-info">
