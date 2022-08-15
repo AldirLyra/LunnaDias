@@ -1146,6 +1146,160 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
+/* -------------------------- */
+
+#aprendacomigo {
+  padding: 60px 0;
+}
+
+#aprendacomigo #aprendacomigo-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#aprendacomigo #aprendacomigo-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#aprendacomigo #aprendacomigo-flters li:hover,
+#aprendacomigo #aprendacomigo-flters li.filter-active {
+  background: #636e72;
+  color: #fff;
+}
+
+#aprendacomigo #aprendacomigo-flters li:last-child {
+  margin-right: 0;
+}
+
+#aprendacomigo .aprendacomigo-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+#aprendacomigo .aprendacomigo-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+#aprendacomigo .aprendacomigo-item {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+#aprendacomigo .aprendacomigo-item figure {
+  background: #000;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+#aprendacomigo .aprendacomigo-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+#aprendacomigo .aprendacomigo-item figure .link-preview,
+#aprendacomigo .aprendacomigo-item figure .link-details {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+
+#aprendacomigo .aprendacomigo-item figure .link-preview i,
+#aprendacomigo .aprendacomigo-item figure .link-details i {
+  padding-top: 6px;
+  font-size: 22px;
+  color: #333;
+}
+
+#aprendacomigo .aprendacomigo-item figure .link-preview:hover,
+#aprendacomigo .aprendacomigo-item figure .link-details:hover {
+  background: #636e72;
+}
+
+#aprendacomigo .aprendacomigo-item figure .link-preview:hover i,
+#aprendacomigo .aprendacomigo-item figure .link-details:hover i {
+  color: #fff;
+}
+
+#aprendacomigo .aprendacomigo-item figure .link-preview {
+  left: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#portfaprendacomigoolio .aprendacomigo-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#aprendacomigo .aprendacomigo-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(45%);
+}
+
+#aprendacomigo .aprendacomigo-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
+
+#aprendacomigo .aprendacomigo-item .aprendacomigo-info {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  height: 90px;
+  border-radius: 0 0 3px 3px;
+}
+
+#aprendacomigo .aprendacomigo-item .aprendacomigo-info h4 {
+  font-size: 18px;
+  line-height: 1px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+}
+
+#aprendacomigo .aprendacomigo-item .aprendacomigo-info h4 a {
+  color: #333;
+}
+
+#aprendacomigo .aprendacomigo-item .aprendacomigo-info h4 a:hover {
+  color: #636e72;
+}
+
+#aprendacomigo .aprendacomigo-item .aprendacomigo-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+/* --------------------------- */
+
 /* Clients Section
 --------------------------------*/
 
