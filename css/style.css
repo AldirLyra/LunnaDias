@@ -968,6 +968,55 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: left;
   transition: .9s;
 }
+/* ----------------------------- */
+
+/* #about {
+  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 0 0;
+  position: relative;
+}
+
+#about::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.88);
+  z-index: 9;
+}
+
+#about .container {
+  position: relative;
+  z-index: 10;
+}
+
+#about .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #636e72;
+}
+
+#about .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #111;
+}
+
+#about .about-img {
+  text-align: center;
+  padding-top: 30px;
+} */
+
+
+/* ---------------------------- */
+
 
 /* Facts Section
 --------------------------------*/
@@ -1937,6 +1986,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #nav-menu-container {
     padding-right: 60px;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -1961,6 +2011,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #mobile-nav-toggle {
+    display: inline;
+  }
+
+  #testimonials .testimonial-item {
+    text-align: center;
     display: inline;
   }
 }
