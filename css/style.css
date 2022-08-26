@@ -1,10 +1,3 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -774,12 +767,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.692);
-  z-index: 9;
+  /* z-index: 9; */
 }
 
 #about .container {
   position: relative;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 #about .about-col {
@@ -902,7 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/background-preto.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/black.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1088,7 +1081,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 60%; /* Could be more or less, depending on screen size */
+  width: 70%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -1946,6 +1939,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+.divisa1 {
+  padding-top: 3%;
+}
+
+.divisa2 {
+  padding-top: 3%;
+}
+
+.divisa3 {
+  padding-top: 3%;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -2018,4 +2023,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     display: inline;
   }
+
+  #myModal .modal-content {
+    width: 50%; 
+  }
+
+  
 }
