@@ -1217,6 +1217,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ----------------------------- */
 
 #portfolio {
+  /* aumenta o tamanho da sessão */
   padding: 60px 0;
 }
 
@@ -1231,7 +1232,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 12px;
   line-height: 20px;
   color: #666666;
@@ -1336,7 +1337,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   text-align: center;
   padding: 30px;
-  height: 90px;
+  /* altura da caixa de texto no portfólio */
+  height: 150px;
   border-radius: 0 0 3px 3px;
 }
 
@@ -1487,7 +1489,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   text-align: center;
   padding: 30px;
-  height: 90px;
+  height: 120px;
   border-radius: 0 0 3px 3px;
 }
 
@@ -2070,5 +2072,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 70%; 
   }
 
-  
 }
