@@ -1124,6 +1124,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+  font-size: 12px;
 }
 
 /* The Close Button */
@@ -2069,7 +2070,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #myModal .modal-content {
-    width: 70%; 
+    width: 90%; 
   }
 
 }
