@@ -1123,7 +1123,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 95%; /* Could be more or less, depending on screen size */
   font-size: 12px;
 }
 
@@ -1340,6 +1340,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px;
   /* altura da caixa de texto no portfólio */
   height: 150px;
+  /* height: 150px; */
   border-radius: 0 0 3px 3px;
 }
 
@@ -2070,7 +2071,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #myModal .modal-content {
-    width: 90%; 
+    width: 95%; 
   }
 
 }
