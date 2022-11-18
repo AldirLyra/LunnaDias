@@ -174,8 +174,8 @@ h6 {
 
 #intro .carousel-item {
   width: 100%;
-  /* tamanho das imagens do carrosel */
-  height: 140vh;
+  /* altura das imagens do carrosel */
+  height: 160vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1215,6 +1215,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
+/* The Close Button */
+.close7 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close7:hover,
+.close7:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* ----------------------------- */
 
 #portfolio {
@@ -1994,6 +2009,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .divisa3 {
+  padding-top: 3%;
+}
+
+.divisa4 {
   padding-top: 3%;
 }
 
