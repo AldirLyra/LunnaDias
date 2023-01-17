@@ -131,7 +131,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 90px;
   transition: all 0.5s;
 }
 
@@ -421,12 +421,12 @@ h6 {
   margin: 10px;
   color: #fff;
   text-align: center;
-  background: #636e72;
+  background: #a55eea;
 }
 
 .button-palestras:hover{
   background: #fff;
-  color: #636e72;
+  color: #a55eea;
 }
 
 .button-treinamento{
@@ -442,12 +442,12 @@ h6 {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  background: #636e72;
+  background: #a55eea;
 }
 
 .button-treinamento:hover{
   background: #fff;
-  color: #636e72;
+  color: #a55eea;
 }
 
 #intro .btn-get-started:hover {
@@ -797,7 +797,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   background: url("../img/IMG_2881.JPG") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 250px 0;
+  /* Ajusta a altura do banner */
+  padding: 60px 0 150px 0; 
   position: relative;
 }
 
@@ -954,7 +955,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -963,12 +964,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #a55eea;
+  background: #a55eea;
   color: #fff;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #636e72;
+  background: #fff;
+  color: #a55eea;
   border: 2px solid #636e72;
 }
 
