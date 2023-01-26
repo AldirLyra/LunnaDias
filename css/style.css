@@ -934,6 +934,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+/*  ------------------------ */
+/* blog */
+/* ------------------------ */
+#blog {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/studing.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#blog h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#blog p {
+  color: #fff;
+}
+
+#blog .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #a55eea;
+  background: #a55eea;
+  color: #fff;
+}
+
+#blog .cta-btn:hover {
+  background: #fff;
+  color: #a55eea;
+  border: 2px solid #636e72;
+}
+
+/* blog
+--------------------------------*/
+
+
+
 /* Call To Action Section
 --------------------------------*/
 
