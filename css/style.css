@@ -798,7 +798,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url("../img/IMG_2881.JPG") center top no-repeat fixed;
   background-size: cover;
   /* Ajusta a altura do banner */
-  padding: 60px 0 150px 0; 
+  padding: 60px 0 50px 0; 
   position: relative;
 }
 
