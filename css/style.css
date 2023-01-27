@@ -961,7 +961,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
-  border-radius: 25px;
+  border-radius: 200px;
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #a55eea;
@@ -1880,11 +1880,72 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
+  margin-bottom: 0 auto;
 }
 
 #contact .form button[type="submit"]:hover {
   background: #13a456;
 }
+
+
+/*  */
+/* ENVIAR EMAIL PARA BAIXAR OS E-BOOKS */
+/*  */
+.form #sendmessage {
+  color: #636e72;
+  border: 1px solid #636e72;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid #636e72;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form #sendmessage.show,
+.form #errormessage.show,
+.form .show {
+  display: block;
+}
+
+.form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.form input {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+.form button[type="submit"] {
+  background: #636e72;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+  background: #13a456;
+}
+/* ------------------------------------------------- */
+
 
 /*--------------------------------------------------------------
 # Footer
